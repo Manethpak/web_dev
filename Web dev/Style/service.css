@@ -1,7 +1,7 @@
 
 section.service-section{
     padding: 120px 0;
-    background-image: url(bg.jpg);
+    background-image: url(../Image/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +76,7 @@ section.service-section{
     font-size: 16px;
 }
 
-.service-box a, a:visited{
+.service-box a:visited, a{
     color: #ddd;
 }
 
