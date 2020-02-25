@@ -76,7 +76,7 @@ section.service-section{
     font-size: 16px;
 }
 
-.service-box a:visited{
+.service-box a, a:visited{
     color: #ddd;
 }
 
