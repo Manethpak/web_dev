@@ -1,9 +1,10 @@
+ 
 section.first{
   width: auto;
   height: 100vh;
   background-size: cover;
   background-position: center;
-}
+} 
 
 div.container{
   max-width: 1400px;
@@ -34,3 +35,37 @@ section.first h3{
   height: 200px;
   width: 300px;
 }
+
+/* main style  */
+  .backgroud1{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    } 
+    .section-1{
+      height: 100vh;
+      background-image: url(https://external-preview.redd.it/LksDF7OgsuF9OIZYY2F0TpGy1AVNquLAbT8rDBHkIl8.jpg?auto=webp&s=f3f274f9adcf0d22cc05a8e6c3404938bbf864a7);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+  .text-p {
+    display: flex;
+    padding: 10%;
+    height: 100%;
+    width: 100%;
+    font-family: "Raleway", 'Roboto slab';
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+
+  /* section-2 */
+    .section-2{
+      height: 100vh;
+      background-color: beige;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+
