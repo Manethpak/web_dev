@@ -1,7 +1,7 @@
 
  section.service-section{
     padding: 120px 0;
-    background-image: url(bg.jpg);
+    background-image: url(../Image/bg.jpg);
     background-size: cover;
     background-position: center;
 } 
