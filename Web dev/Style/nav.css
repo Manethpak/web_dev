@@ -44,7 +44,7 @@ nav ul li{
 }
 
 nav ul li a.nav-link{
-  display: block;
+  display: inline;
   color: white;
   font-size: 17px;
   padding: 7px 10px;
