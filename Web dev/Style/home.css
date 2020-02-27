@@ -34,3 +34,7 @@ section.first h3{
   height: 200px;
   width: 300px;
 }
+
+#landing {
+  height: 100vh;
+}
