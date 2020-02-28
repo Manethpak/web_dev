@@ -10,70 +10,173 @@
     <link rel="stylesheet" href="Style/nav.css">
     <link rel="stylesheet" href="Style/home.css">
     <link rel="stylesheet" href="Style/sider.css">
+    <script src="Script/scroll.js"></script>
 
     <title>Guided Journey</title>
 </head>
 <body>
   <header>
-      <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">GuidedJourney</label>
-        <ul>
-          <li><a class="nav-link active" href="#">Home</a></li>
-          <li><a class="nav-link" href="About.html">About</a></li>
-          <li><a class="nav-link" href="Service.html">Services</a></li>
-          <li><a class="nav-link" href="Contact.html">Contact</a></li>
-          <li><a class="nav-link" href="#">Login <i class="fas fa-sign-in-alt"></i></a></li>
-        </ul>
-      </nav> 
-    </header>
-
-    <main>
-      <div class="section-1">
-        <p class="text-p"> WELCOME TO GUIDED JOURNEY </p>
-      </div>
-      <div class="jumbotron">
-        <h1 class="display-4"> Top places to visit</h1>
-      </div>
-    </main>
-
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">GuidedJourney</label>
+      <ul>
+        <li><a class="nav-link active" href="#">Home</a></li>
+        <li><a class="nav-link" href="About.html">About</a></li>
+        <li><a class="nav-link" href="Service.html">Services</a></li>
+        <li><a class="nav-link" href="Contact.html">Contact</a></li>
+        <li><a class="nav-link" href="#">Login <i class="fas fa-sign-in-alt"></i></a></li>
+      </ul>
+    </nav> 
+  </header>
+<main>
+  <p class="text-p"> WELCOME TO GUIDED JOURNEY </p>
+</main>
+    
+  <div class="jumbotron">
     <div class="container">
+      <h1>Book your destination now!</h1>
+      <form>
+        <label>Fill in your Name and Email</label>
+        <div class="form-row">
+          <div class="col-md-3">
+            <div class="input-group mb-2">
+            <input type="text" class="form-control" placeholder="First name">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="input-group mb-2">
+            <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="input-group mb-2">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+          </div>
+        </div>
+
+        <label>Fill in your destination</label>
+
+        <div class="form-row">
+          <div class="col-md-6">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+              </div>
+            <input type="search" class="form-control" placeholder="Where are you going?">
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-row">
+            <div class="col-md-3">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Check-in</span>
+                </div>
+              <input type="date" class="form-control" placeholder="check-in">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Check-out</span>
+                </div>
+              <input type="date" class="form-control" placeholder="check-in">
+              </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-2">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-user-friends"></i></span>
+              </div>
+            <input type="number" value="1" class="form-control" placeholder="Adult">
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-child"></i></span>
+              </div>
+            <input type="number" value="0" class="form-control" placeholder="Children">
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-bed"></i></span>
+              </div>
+            <input type="number" value="1" class="form-control" placeholder="Room">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-secondary">Search now</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
     <div class="card-deck">
-      <div class="card border-info mb-3">
-        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="#">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h1 class="display-4">Top place to visit in Cambodia</h1>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card border-info mb-4">
+            <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="#">
+            <div class="card-body">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer bg-transparent border-info">
+              <small class="text-muted">Something here</small>
+            </div>
+          </div>
         </div>
-        <div class="card-footer bg-transparent border-info">
-          <small class="text-muted">Something here</small>
+
+        <div class="col-sm-3">
+          <div class="card border-info mb-4">
+            <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="#">
+            <div class="card-body">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer bg-transparent border-info">
+              <small class="text-muted">Something here</small>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card border-info mb-3">
-        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="#">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer bg-transparent border-info">
-          <small class="text-muted">Something here</small>
-        </div>
-      </div>
-      <div class="card border-info mb-3">
-        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="#">
-        <div class="card-body">
-          <h5 class="card-title">Title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-        <div class="card-footer bg-transparent border-info">
-          <small class="text-muted">Something here</small>
+
+        <div class="col-sm-3">
+          <div class="card border-info mb-4">
+            <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="#">
+            <div class="card-body">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer bg-transparent border-info">
+              <small class="text-muted">Something here</small>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
+        
+  </div>
 
   <footer>Footer</footer>
 
