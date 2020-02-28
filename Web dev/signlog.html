@@ -2,12 +2,31 @@
 <html>
 
 <head>
-	<title>login</title>
-	<link rel="stylesheet" type="text/css" href="Style/style.css">
+  <title>login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="Style/signlog.css">
+  <link rel="stylesheet" href="Style/nav.css">
 </head>
 
 <body>
+
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">GuidedJourney</label>
+      <ul>
+        <li><a class="nav-link" href="Home.html">Home</a></li>
+        <li><a class="nav-link" href="About.html">About</a></li>
+        <li><a class="nav-link" href="Service.html">Services</a></li>
+        <li><a class="nav-link" href="Contact.html">Contact</a></li>
+        <li><a class="nav-link active" href="#">Login <i class="fas fa-sign-in-alt"></i></a></li>
+      </ul>
+    </nav> 
+  </header>
 
 	<div class="container" id="container">
 		<div class="form-container sign-up-container">
@@ -47,7 +66,7 @@
 				<div class="overlay-panel overlay-left">
 					<h1>Welcome Back!</h1>
 					<p>To keep connected with us please login with your personal info</p>
-					<button class="ghost" id="signIn ">Sign In</button>
+					<button class="ghost" id="signIn">Sign In</button>
 				</div>
 				<div class="overlay-panel overlay-right">
 					<h1>Hello, Friend!</h1>
@@ -71,7 +90,8 @@
 		});
 	</script>
 
+  <footer>Footer</footer>
+
 
 </body>
-
 </html>
